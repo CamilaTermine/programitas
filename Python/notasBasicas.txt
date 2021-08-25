@@ -1,0 +1,30 @@
+if condicion:  #sintaxis del if
+#la condicion se escribe sin parentesis y el contenido o lo que influya al if dependera de la tabulacion
+
+elif condicion: #sintaxis del elif
+#es opcional y se ejecutará cuando falle la condicion del if anterior (funciona como un if comun y corriente) y siempre antes que el else
+#se puede agregar la cantidad de elif que uno quiera
+
+else: #sintaxis del else
+#es opcional y se ejecutará siempre y cuando la condicion del ultimo if no se cumpla
+#solo existe un unico else
+
+while: #sintaxis del while
+#el while se utiliza para iterar una cantidad de veces que desconocemos
+#generalmente se usa con condicionales 
+
+for i in range(valorInicial, valorFinal): #sintaxis del for
+#el for se utiliza para iterar una cantidad de veces que conocemos previamente
+#el valor de i arrancara de acuerdo al valor ingresado en el parametro "valorInicial" y por cada paso de la iteracion se sumara 1 hasta llegar 
+#al valor ingresado en el parametro "valorFinal" sin incluirlo
+
+for i in range(valorFinal): #sintaxis del for
+#funciona exactamente igual al for anterior con la salvedad de que se toma como valor predeterminado el 0 al parametro que ya no existe "valorInicial" 
+
+for i in range(valorInicial, valorFinal, paso): #sintaxis del for
+#funciona exactamente igual que los fores anteriores con el agregado de especificar como cambiara el valor de i por cada iteracion
+
+variable[i]  
+#esta sintaxis nos permite acceder al valor de una determinada posicion dentro de una variable (arreglo)
+#ejemplo: texto = "hola"    texto[2] = "l"
+

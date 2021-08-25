@@ -1,0 +1,25 @@
+print(parametro1) #funcion que permite mostrar por pantalla, el parametro ingresado debe ser un texto 
+input(parametro1) #funcion que pide datos al usuario, el parametro ingresado debe ser un texto que indique el mensaje que se quiere mostrar al usuario, y el valor que devuelve es un texto (respuesta del usuario)
+int(parametro1)   #funcion que transforma texto a numeros
+
+print(f'texto a escribir') #funcion similar al print comun y corriente con el agregado de permitir variables dentro del texto
+print(f'Hola Mundo {variable} !!!')
+
+len(parametro1) #funcion que permite obtener el tamaño de un arreglo, por ejemplo, el tamaño de una cadena de texto
+len("hola") #lo que devuelve es 4
+
+variable.upper() #funcion que permite convertir la variable (string o texto) TODA en mayuscula 
+variable.lower() #funcion que permite convertir la variable (string o texto) TODA en minuscula
+variable.capitalize() #funcion que permite a la variable (string o texto) convertir su primera letra en mayuscula
+variable.swapcase() #funcion que permite a la variable (string o texto) invertir todo aquello que esta en mayuscula a minuscula y viceversa 
+variable.isupper() #funcion que devuelve True si toda la variable (string o texto) se encuentra en mayuscula. En caso contrario devuelve False
+variable.islower() #funcion que devuelve True si toda la variable (string o texto) se encuentra en minuscula. En caso contrario devuelve False
+
+arreglo.append() #funcion que permite agregar al final un valor o dato al arreglo
+arreglo.pop() #funcion que permite eliminar el ultimo valor de un arreglo
+arreglo.pop(posicion) #funcion que permite eliminar el valor en la posicion elegida del arreglo
+len(arreglo) #funcion que permite conocer el tamaño del arreglo
+arreglo.clear #funcion que limpia todo el arreglo ([])
+
+randint(a,b) #funcion que permite generar un numero aleatorio entre a y b (ambos incluidos). Importar la libreria random
+
